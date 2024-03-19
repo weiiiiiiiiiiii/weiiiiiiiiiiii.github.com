@@ -1,1 +1,18 @@
 @charset "utf-8";
+.main1 {
+    color: #F8090D;
+}
+.title1 {
+    color: #0A0D98;
+    text-align: center;
+    font-size: 100px;
+}
+#caption img  {
+    background-color: #1EBEDD;
+    -webkit-box-shadow: 15px 15px #B31517;
+    box-shadow: 15px 15px #B31517;
+}
+#maincontent img {
+    -webkit-box-shadow: 15px 15px #1653A9;
+    box-shadow: 15px 15px #1653A9;
+}
