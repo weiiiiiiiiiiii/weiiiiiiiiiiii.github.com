@@ -9,18 +9,210 @@
 
 <body>
 	<h1>Hello,Bootstrap</h1>
+	<h2>網格系統</h2>
 	<div class = "container">
 		<div class = "row">
-			<div class = "col-sm-2">
+			<div class = "col-sm-2 col-md-4 col-lg-4">
 				區塊1of3
 				</div>
-			<div class = "col-sm-6">
+			<div class = "col-sm-6 col-md-2 col-lg-4">
 				區塊2of3
 				</div>
-			<div class = "col-sm-4">
+			<div class = "col-sm-4 col-md-6 col-lg-4">
 				區塊3of3
 				</div>
 			
+		</div>
+	</div>
+	<h2>容器</h2>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-8">
+				區塊1
+			</div>
+			<div class = "col-4">
+				區塊2
+			</div>
+		</div>
+	</div>
+		<div class = "container-md">
+			<div class = "row">
+				<div class = "col-8">
+				區塊3
+			    </div> 
+			    <div class = "col-4">
+				區塊4
+			    </div>
+		    </div>
+		</div>
+		<div class = "container-fluid">
+			<div class = "row">
+				<div class = "col-8">
+				區塊5
+			    </div> 
+			    <div class = "col-4">
+				區塊6
+			    </div>
+		    </div>
+	     </div>
+	<h2>欄位寬度</h2>
+	<div class = "countainer">
+		<div class = "row">
+			<div class = "col"> 
+				區塊1of3
+			</div>
+			<div class = "col"> 
+				區塊2of3
+			</div>
+			<div class = "col"> 
+				區塊3of3
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col"> 
+				區塊1of3
+			</div>
+			<div class = "col-6"> 
+				區塊2of3
+			</div>
+			<div class = "col"> 
+				區塊3of3
+			</div>
+		</div>
+	</div>
+	<h2>row的垂直對齊方式</h2>
+	<div class = "countainer">
+		<div class = "row align-items-start">
+			<div class = "col">
+				區塊1
+			</div>
+			<div class = "col">
+				區塊2
+			</div>
+		</div>
+		<div class = "row align-items-center">
+			<div class = "col">
+				區塊3
+			</div>
+			<div class = "col">
+				區塊4
+			</div>
+		</div>
+		<div class = "row align-items-end">
+			<div class = "col">
+				區塊5
+			</div>
+			<div class = "col">
+				區塊6
+			</div>
+		</div>
+	</div>
+	<h2>column的水平對齊方式</h2>
+	<div class = "container">
+		<div class = "row justify-content-start">
+			<div class = "col-4">
+				區塊1
+			</div>
+			<div class = "col-4">
+				區塊2
+			</div>
+		</div>
+		<div class = "row justify-content-center">
+			<div class = "col-4">
+				區塊3
+			</div>
+			<div class = "col-4">
+				區塊4
+			</div>
+		</div>
+		<div class = "row justify-content-end">
+			<div class = "col-4">
+				區塊5
+			</div>
+			<div class = "col-4">
+				區塊6
+			</div>
+		</div>
+		<div class = "row justify-content-around">
+			<div class = "col-4">
+				區塊7
+			</div>
+			<div class = "col-4">
+				區塊8
+			</div>
+		</div>
+		<div class = "row justify-content-between">
+			<div class = "col-4">
+				區塊9
+			</div>
+			<div class = "col-4">
+				區塊10
+			</div>
+		</div>
+		<div class = "row justify-content-evenly">
+			<div class = "col-4">
+				區塊11
+			</div>
+			<div class = "col-4">
+				區塊12
+			</div>
+		</div>
+	</div>
+	<h2>column的位移</h2>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-4">
+				.col-md-4
+			</div>
+			<div class = "col-md-4 offset-md-4">
+				.col-md-4.offset-md-4
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-3 offset-md-3">
+				.col-md-3. offset-md-3
+			</div>
+			<div class = "col-md-3 offset-md-3">
+				.col-md-3. offset-md-3
+			</div>
+		</div>
+		<div class = "row">
+		    <div class = "col-md-6 offset-md-3">
+				.col-md-6. offset-md-3
+			</div>
+		</div>
+	</div>
+	<h2>將column換到新行</h2>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-6 col-sm-3"> 
+				區塊1
+			</div>
+			<div class = "col-6 col-sm-3"> 
+				區塊2
+			</div>
+			<div class = "w-100">
+			</div>
+			<div class = "col-6 col-sm-3"> 
+				區塊3
+			</div>
+			<div class = "col-6 col-sm-3"> 
+				區塊4
+			</div>
+		</div>
+	</div>
+	<h2>column的順序</h2>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col"> 
+				區塊1(沒有指定順序)
+			</div>
+			<div class = "col order-5"> 
+				區塊2(指定順序為5)
+			</div>
+			<div class = "col order-1"> 
+				區塊3(指定順序為1)
+			</div>
 		</div>
 	</div>
 	
