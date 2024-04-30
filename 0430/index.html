@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bootstrap 公用類別</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<h2> 公用類別 - 色彩</h2>
+	<div class="container">
+  <div class="bg-primary text-white m-1">.bg-primary</div>
+  <div class="bg-secondary text-white m-1">.bg-secondary</div>
+  <div class="bg-success text-white m-1">.bg-success</div>
+  <div class="bg-danger text-white m-1">.bg-danger</div>
+  <div class="bg-warning text-dark m-1">.bg-warning</div>
+  <div class="bg-info text-white m-1">.bg-info</div>
+  <div class="bg-light text-dark m-1">.bg-light</div>
+  <div class="bg-dark text-white m-1">.bg-dark</div>
+  <div class="bg-white text-dark m-1">.bg-white</div>
+  <div class="bg-transparent text-dark m-1">.bg-transparent</div>
+</div>
+	<hr>
+	<h2> 公用類別 - 文繞圖</h2>
+	
+	<div class="container">
+  <img src="flowers1.jpg" width="40%" class = "float-start">
+  <h2>《飲酒·其五》</h2>
+  <p>結廬在人境，而無車馬喧。<br>
+     問君何能爾？心遠地自偏。<br>
+     採菊東籬下，悠然見南山。<br>
+     山氣日夕佳，飛鳥相與還。<br>
+     此中有真意，欲辨已忘言。</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+</div>
+	
+<hr>
+	<h2> 公用類別 - 區塊內容置中</h2>
+
+	<div class="container text-center">
+  <img src="flowers1.jpg" width="40%">
+  <h2>《飲酒·其五》</h2>
+  <p>結廬在人境，而無車馬喧。<br>
+     問君何能爾？心遠地自偏。<br>
+     採菊東籬下，悠然見南山。<br>
+     山氣日夕佳，飛鳥相與還。<br>
+     此中有真意，欲辨已忘言。</p>
+</div>
+	<hr>
+	<h2> 公用類別 - 間距</h2>
+<div class="mx-auto" style="width: 165px; background-color: orange;">
+  <h1>鬼滅之刃</h1>
+	
+</div>
+<hr>
+	<h2> 公用類別 - 陰影</h2>
+	<div class="shadow-sm p-3 mb-5 bg-white rounded">小陰影</div>
+<div class="shadow p-3 mb-5 bg-white rounded">正常陰影</div>
+<hr>
+	<h2> 公用類別 - 顯示層級</h2>
+	<div class="d-inline p-2 bg-info text-white">d-inline</div>
+<div class="d-inline p-2 bg-dark text-white">d-inline</div>
+<hr>
+	<h2> 公用類別 - 大小</h2>
+	<div class="w-25 p-2" style="background: pink;">Width 25%</div>
+<div class="w-50 p-2" style="background: pink;">Width 50%</div>
+<div class="w-75 p-2" style="background: pink;">Width 75%</div>
+<div class="w-100 p-2" style="background: pink;">Width 100%</div>
+<div class="w-auto p-2" style="background: pink;">Width auto</div>
+<hr>
+	<h2> 公用類別 - 垂直對齊</h2>
+	<div>採菊<img src="flowers1.jpg" width="25%" class="align-baseline p-1">東籬下</div>
+<div>採菊<img src="flowers1.jpg" width="25%" class="align-top p-1">東籬下</div>
+<div>採菊<img src="flowers1.jpg" width="25%" class="align-bottom p-1">東籬下</div>
+<div>採菊<img src="flowers1.jpg" width="25%" class="align-text-top p-1">東籬下</div>
+<div>採菊<img src="flowers1.jpg" width="25%" class="align-text-bottom p-1">東籬下</div>
+<hr>
+	<h2> 公用類別 - Flex網格類別</h2>
+	<div class="d-flex flex-row mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div> 
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-column mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div> 
+<div class="d-flex flex-column-reverse mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+	<hr>
+	<h2> 公用類別 - 按鈕</h2>
+	<a class="btn btn-primary" href="#" role="button">按鈕1</a>
+<button class="btn btn-secondary" type="submit">按鈕2</button>
+<input class="btn btn-success" type="submit" value="按鈕3">
+<input class="btn btn-danger" type="reset" value="按鈕4">
+<input class="btn btn-warning" type="button" value="按鈕5">
+<input class="btn btn-info" type="button" value="按鈕6">
+<input class="btn btn-light" type="button" value="按鈕7">
+<input class="btn btn-dark" type="button" value="按鈕8">
+<input class="btn btn-link" type="button" value="按鈕9">
+<hr>
+	<h2> 公用類別 - 表單</h2>
+	<form>
+  <div class="mb-3">
+    <label for="userEmail1" class="form-label">電子郵件</label>
+    <input type="email" class="form-control" id="userEmail1">
+    <div id="emailHelp" class="form-text">我們不會洩漏您的個資.</div>
+  </div>
+  <div class="mb-3">
+    <label for="userPWD" class="form-label">密碼</label>
+    <input type="password" class="form-control" id="userPWD">
+  </div>
+  <button type="submit" class="btn btn-primary">提交</button>
+</form>
+
+
+</body>
+</html>
